@@ -18,9 +18,13 @@ function setStorageValue(key, value) {
   localStorage.setItem(key, JSON.stringify(value));
 }
 
-// Converts a number into USD-like display format.
+// Converts a number into Nepalese Rupee currency format.
 function formatCurrency(amount) {
-  return `$${Number(amount).toFixed(2)}`;
+  return new Intl.NumberFormat("en-NP", {
+    style: "currency",
+    currency: "NPR",
+    maximumFractionDigits: 0
+  }).format(Number(amount));
 }
 
 // Finds a product from PRODUCT_DATA by numeric id.

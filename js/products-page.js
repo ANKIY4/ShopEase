@@ -11,7 +11,7 @@ const initialCategory = urlParams.get("category");
 
 const state = {
   categories: new Set(initialCategory ? [initialCategory] : []),
-  maxPrice: Number(priceRange?.value || 200),
+  maxPrice: Number(priceRange?.value || 20000),
   minRating: Number(ratingFilter?.value || 0),
   sortBy: sortSelect?.value || "newest",
   searchQuery: initialSearch

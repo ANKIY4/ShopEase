@@ -3,7 +3,7 @@ const PRODUCT_DATA = [
   {
     id: 1,
     name: "Wireless Noise-Canceling Headphones",
-    price: 129.99,
+    price: 17289,
     image: "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=800&q=80",
     category: "Electronics",
     rating: 4.7,
@@ -13,7 +13,7 @@ const PRODUCT_DATA = [
   {
     id: 2,
     name: "Smart Fitness Watch",
-    price: 89.5,
+    price: 11904,
     image: "https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=800&q=80",
     category: "Electronics",
     rating: 4.5,
@@ -23,7 +23,7 @@ const PRODUCT_DATA = [
   {
     id: 3,
     name: "Minimalist Backpack",
-    price: 54.0,
+    price: 7182,
     image: "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&fit=crop&w=800&q=80",
     category: "Accessories",
     rating: 4.4,
@@ -33,7 +33,7 @@ const PRODUCT_DATA = [
   {
     id: 4,
     name: "Cotton Oversized T-Shirt",
-    price: 24.99,
+    price: 3324,
     image: "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&w=800&q=80",
     category: "Fashion",
     rating: 4.3,
@@ -43,7 +43,7 @@ const PRODUCT_DATA = [
   {
     id: 5,
     name: "Ceramic Coffee Mug Set",
-    price: 32.0,
+    price: 4256,
     image: "https://images.unsplash.com/photo-1514228742587-6b1558fcca3d?auto=format&fit=crop&w=800&q=80",
     category: "Home",
     rating: 4.6,
@@ -53,7 +53,7 @@ const PRODUCT_DATA = [
   {
     id: 6,
     name: "Portable Bluetooth Speaker",
-    price: 48.75,
+    price: 6484,
     image: "https://images.unsplash.com/photo-1589003077984-894e133dabab?auto=format&fit=crop&w=800&q=80",
     category: "Electronics",
     rating: 4.2,
@@ -63,7 +63,7 @@ const PRODUCT_DATA = [
   {
     id: 7,
     name: "Desk Lamp with USB Port",
-    price: 36.4,
+    price: 4841,
     image: "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?auto=format&fit=crop&w=800&q=80",
     category: "Home",
     rating: 4.1,
@@ -73,7 +73,7 @@ const PRODUCT_DATA = [
   {
     id: 8,
     name: "Classic Sunglasses",
-    price: 29.99,
+    price: 3989,
     image: "https://images.unsplash.com/photo-1511499767150-a48a237f0083?auto=format&fit=crop&w=800&q=80",
     category: "Fashion",
     rating: 4.0,
